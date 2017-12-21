@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<p id="mark"></p>
+
+<script>
+    var marks=window.prompt("Enter Marks lol");
+
+    if (marks >= 75) {
+        marks = "A";
+    } else if (marks >= 65) {
+        marks = "B";
+    }
+    else if (marks >= 55) {
+        marks = "C";
+    }
+    else if (marks >= 45) {
+        marks = "S";
+    }
+    else {
+        marks = "Opps Your Fail Sorry Bla blaa ";
+    }
+document.getElementById("mark").innerHTML = marks;
+</script>
+
+</body>
+</html>
